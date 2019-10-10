@@ -14,7 +14,7 @@ module.exports = function(app, dbs) {
 
   app.get('/dvm/vsam/staff/:staffnum', function (req, res) {
     const staffno = req.params.staffnum;
-    const sql = "SELECT * FROM DDS2773_STAFF_VSAM WHERE STAFFVS_KEY_ID = " + staffno;
+    const sql = "SELECT * FROM SAMPLE_STAFF_VSAM WHERE STAFFVS_KEY_ID = " + staffno;
     var dbConn = dbs.getConnection();
 
     var runSQL = function (err, statement) {
@@ -62,7 +62,7 @@ module.exports = function(app, dbs) {
   });
 
   app.get('/dvm/vsam/all/staff', function (req, res) {
-    const sql = "SELECT * FROM DDS2773_STAFF_VSAM";
+    const sql = "SELECT * FROM SAMPLE_STAFF_VSAM";
     var dbConn = dbs.getConnection();
 
     var runSQL = function (err, statement) {
