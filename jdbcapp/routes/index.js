@@ -4,7 +4,7 @@
 // which you can read at https://www.apache.org/licenses/LICENSE-2.0
 //
 // This program shows how Node.js can be use to retrieve data from
-// Data Virtualization Manager using SQL and JDBC driver
+// using SQL and JDBC driver
 //
 // **********************************************
 // * This code handles the routing of the calls *
