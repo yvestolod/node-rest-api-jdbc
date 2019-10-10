@@ -3,8 +3,8 @@
 // Licensed under the Apache License, Version 2.0
 // which you can read at https://wwwc.apache.org/licenses/LICENSE-2.0
 //
-// This program shows how Node.js can be use to retrieve data from
-// Data Virtualization Manager using SQL and JDBC driver
+// This program shows how Node.js can be use to retrieve data
+// using SQL and JDBC driver
 //
 // *******************************************************
 // * This code handles the database connection for reuse *
