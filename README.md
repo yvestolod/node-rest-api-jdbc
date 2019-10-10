@@ -1,2 +1,2 @@
 # node-rest-api-jdbc
-Sample applications written using the IBM SDK for Node..js - z/OS
+Sample REST API written using the IBM SDK for Node.js - z/OS and JDBC npm module
