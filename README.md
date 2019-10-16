@@ -1,6 +1,6 @@
 # Using JDBC npm with Node.js applications on z/OS
 
-This repository contains a sample Node.js application that uses the JDBC npm module to access z/OS data sources using JDBC.
+This repository contains a sample Node.js application that uses the [JDBC npm](https://www.npmjs.com/package/jdbc) module to access z/OS data sources using JDBC.
 
 ## Prerequisites
  * The [IBM SDK for Node.js on z/OS Version 8](https://www.ibm.com/support/knowledgecenter/en/SSTRRS_8.0.0/com.ibm.nodejs.zos.v8.doc/welcome.html) is installed and configured. There is a trial version available that you can download and use if you want to try Node.js on z/OS.  Refer to the [Node.js trial site](https://developer.ibm.com/node/sdk/ztp/) for additional information.
