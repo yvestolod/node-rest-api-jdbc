@@ -5,15 +5,16 @@ This repository contains a sample Node.js application that uses the [JDBC npm](h
 ## Prerequisites
  * The [IBM SDK for Node.js on z/OS Version 8](https://www.ibm.com/support/knowledgecenter/en/SSTRRS_8.0.0/com.ibm.nodejs.zos.v8.doc/welcome.html) is installed and configured. There is a trial version available that you can download and use if you want to try Node.js on z/OS.  Refer to the [Node.js trial site](https://developer.ibm.com/node/sdk/ztp/) for additional information.
  * The jdbc npm module includes native add-ons. To be able to compile native add-ons on z/OS, you need Python 2.7.3 [download]9http://www.rocketsoftware.com/zos-open-source/python) and Make 4.1 [download](http://www.rocketsoftware.com/zos-open-source/make?ver=4.1) installed and available in your PATH. Refer to the **README** documentation on each package for instructions on how to install and configure Python and Make. After setting up Make and Python, check the version to see if it is now accessible.
-```> make --version
-GNU Make 4.1
+ 
+```> make --version```
+```GNU Make 4.1
 Built for i370-ibm-openedition
 Copyright (C) 1988-2014 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.```
-```> python --version
-Python 2.7.13```
+> python --version
+Python 2.7.13
 
 ## Installing
  * Clone this repository `git clone git://github.com/yvestolod/node-rest-api-jdbc.git`
