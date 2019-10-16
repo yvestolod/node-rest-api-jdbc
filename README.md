@@ -1,4 +1,4 @@
-# Using JDBC npm with Node.js applications on z/OS
+# Using the JDBC npm with Node.js on z/OS
 
 This repository contains a sample Node.js application that uses the [JDBC npm](https://www.npmjs.com/package/jdbc) module to access z/OS data sources using JDBC.
 
@@ -8,13 +8,16 @@ This repository contains a sample Node.js application that uses the [JDBC npm](h
  
 ```
 make --version
+```
+```
 python --version
 ```
 
 ## Installing
  * Clone this repository `git clone git://github.com/yvestolod/node-rest-api-jdbc.git`
  * Install Node.js on your preferred platform (MacOS, Windows, Linux or z/OS). See the prerequisites section for information on installing the IBM SDK for Node.js on z/OS.
- * Open a command window (Note: You will need to use a telnet session when using Node.js on z/OS) and issue the following to install *express* and *request* in the *sample1* and *sample2* directories:
+ * Open a command window (Note: You will need to use a telnet or ssh session when using Node.js on z/OS) and issue the following:
+ 
  ```
  npm install
  ```
