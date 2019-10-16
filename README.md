@@ -7,8 +7,8 @@ This repository contains a sample Node.js application that uses the [JDBC npm](h
  * The jdbc npm module includes native add-ons. To be able to compile native add-ons on z/OS, you need [Python 2.7.3] (http://www.rocketsoftware.com/zos-open-source/python) and [Make 4.1](http://www.rocketsoftware.com/zos-open-source/make?ver=4.1) installed and available in your PATH. Refer to the **README** documentation on each package for instructions on how to install and configure Python and Make. After setting up Make and Python, check the version to see if it is now accessible.
  
 ```
-> make --version
-> python --version
+make --version
+python --version
 ```
 
 ## Installing
