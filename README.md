@@ -2,7 +2,7 @@
 
 This repository contains a sample Node.js application that uses the [JDBC npm](https://www.npmjs.com/package/jdbc) module to access z/OS data using JDBC.
 
-The Node.js sample uses the [IBM Data Virtualization Manager for z/OS (DVM)](https://www.ibm.com/support/knowledgecenter/en/SS4NKG_1.1.0/home/kc_welcome_all.html) to access data from z/OS. With DVM, you can access data using SQL, NoSQL and Web services interface.  It also supports a broad range of data sources, including mainframe relational/non-relational databases and file structures, mainframe applications and screens, distributed databases running on Linux, UNIX and Windows platforms, cloud-based relational and non-relational data, and NoSQL databases.
+The Node.js sample uses the [IBM Data Virtualization Manager for z/OS (DVM)](https://www.ibm.com/support/knowledgecenter/en/SS4NKG_1.1.0/home/kc_welcome_all.html) to access data from z/OS. With DVM, you can access data using SQL, NoSQL and a Web service interface.  It also supports a broad range of data sources, including mainframe relational/non-relational databases and file structures, mainframe applications and screens, distributed databases running on Linux, UNIX and Windows platforms, cloud-based relational and non-relational data, and NoSQL databases.
 
 ## Prerequisites
  * The [IBM SDK for Node.js on z/OS Version 8](https://www.ibm.com/support/knowledgecenter/en/SSTRRS_8.0.0/com.ibm.nodejs.zos.v8.doc/welcome.html) is installed and configured. There is a trial version available that you can download and use if you want to try Node.js on z/OS.  Refer to the [Node.js trial site](https://developer.ibm.com/node/sdk/ztp/) for additional information.
