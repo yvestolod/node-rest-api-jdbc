@@ -123,12 +123,12 @@ Reserving connection ...
 Connection reserved: 7b48d857-381a-46ba-a79f-79ae33129173
 ```
 
-On a browser or REST client, you can type the following to call the Node.js sample
+On a browser or REST client, you can type the following to call the Node.js sample:
 
 ```
 http://<hostname>:<port>/dvm/vsam/all/staff
 ```
 
-The following is the sample output
+The following is the sample output of the REST API call:
 
-<img src="https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample3.png" height="75%" width="75%">
+<img src="https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample3.png" height="65%" width="65%">
