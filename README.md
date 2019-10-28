@@ -42,9 +42,15 @@ mkdir drivers
 
 You also need to copy the log4j2.xml file into the jdbcapp directory.
 
-<img src="https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample2.png" height="75%" width="75%">
+<img src="https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample2.png" height="70%" width="70%">
 
 If you are looking to access Db2 on z/OS, then copy the **db2jcc4.jar** and **db2jcc_license_cisuz.jar** to the drivers directory.
+
+* Install the JDBC npm nodule using the following command:
+
+```
+LDFLAGS="$JAVA_HOME/lib/s390x/j9vm/libjvm.x" V=1 npm install --javahome=$JAVA_HOME jdbc
+```
 
 
 
