@@ -36,5 +36,6 @@ cd <path>/jdbcapp
 mkdir drivers
 ```
 
-**Note:** The sample uses the [IBM Data Virtualization Manager JDBC driver]( https://www.ibm.com/support/knowledgecenter/en/SS4NKG_1.1.0/havica10/topics/az
+**Note:** The sample uses the [IBM Data Virtualization Manager JDBC driver](https://www.ibm.com/support/knowledgecenter/en/SS4NKG_1.1.0/havica10/topics/az
 k_ig_tsk_inst_JDBC_drivers.html).
+
