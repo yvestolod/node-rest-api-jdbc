@@ -23,3 +23,9 @@ python --version
  ```
  npm install
  ```
+* You need to set some environment variables to compile the JDBC native modules. Issue the following commands to set these environment variables (modify the JAVA_HOME based on the location of Java 8 64-bit in your environment):
+
+```
+export CXXFLAGS="-U_VARARG_EXT_ -qnoopt"
+export JAVA_HOME=/usr/lpp/java/IBM/current_64/
+```
