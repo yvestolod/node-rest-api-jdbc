@@ -50,7 +50,7 @@ You also need to copy the log4j2.xml file into the jdbcapp directory.
 
 <img src="https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample2.png" height="70%" width="70%">
 
-If you are looking to access Db2 on z/OS, then copy the **db2jcc4.jar** and **db2jcc_license_cisuz.jar** to the drivers directory.
+If you are looking to access Db2 on z/OS, then copy the **db2jcc4.jar** and **db2jcc_license_cisuz.jar** to the drivers directory. You also need to modify the sample code to use the Db2 JDBC drivers.
 
 * Install the JDBC npm nodule using the following command:
 
@@ -58,5 +58,26 @@ If you are looking to access Db2 on z/OS, then copy the **db2jcc4.jar** and **db
 LDFLAGS="$JAVA_HOME/lib/s390x/j9vm/libjvm.x" V=1 npm install --javahome=$JAVA_HOME jdbc
 ```
 
+* Set the LIBPATH environment variable to add the location of the Java shared objects using the following command:
 
+```
+export LIBPATH=$JAVA_HOME/lib/s390x/classic:$LIBPATH
+```
 
+* Set additional environment variables used by the sample program
+
+```
+export PORT=<node-port>
+export DVMHOST=<dvm.host.name>
+export DVMPORT=<dvm-port>
+export DVMUSER=<dvm-user>
+export DVMPWD=<dvm-password>
+```
+
+## Running the Sample program
+
+To run the sample program, issue the following:
+
+```
+cd <path>/jdbcapp
+node jdbcapp.js
