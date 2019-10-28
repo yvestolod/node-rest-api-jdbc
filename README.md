@@ -38,11 +38,11 @@ mkdir drivers
 
 **Note:** The sample uses the [IBM Data Virtualization Manager (DVM) JDBC driver](https://www.ibm.com/support/knowledgecenter/en/SS4NKG_1.1.0/havica10/topics/azk_ig_tsk_inst_JDBC_drivers.html). For DVM, you need to copy the following files to the drivers directory:
 
-![Diagram 1](https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample1.png){:height="75%" width="75%"}
+<img src="https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample1.png" height="75%" width="75%">
 
 You also need to copy the log4j2.xml file into the jdbcapp directory.
 
-<img src="https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample2.png" height="50%" width="50%">
+<img src="https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample2.png" height="75%" width="75%">
 
 If you are looking to access Db2 on z/OS, then copy the **db2jcc4.jar** and **db2jcc_license_cisuz.jar** to the drivers directory.
 
