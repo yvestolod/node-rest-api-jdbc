@@ -12,6 +12,7 @@ The sample Node.js program can be accessed using REST API. It uses JDBC and SQL 
 
 ## Prerequisites
  * The [IBM SDK for Node.js on z/OS Version 8](https://www.ibm.com/support/knowledgecenter/en/SSTRRS_8.0.0/com.ibm.nodejs.zos.v8.doc/welcome.html) is installed and configured. There is a trial version available that you can download and use if you want to try Node.js on z/OS.  Refer to the [Node.js trial site](https://developer.ibm.com/node/sdk/ztp/) for additional information.
+ * [IBM 64-bit SDK for z/OS, Java™ Technology Edition V8.0.0 or later](https://developer.ibm.com/javasdk/support/zos/#v8).
  * The jdbc npm module includes native add-ons. To be able to compile native add-ons on z/OS, you need [Python 2.7.3](http://www.rocketsoftware.com/zos-open-source/python) and [Make 4.1](http://www.rocketsoftware.com/zos-open-source/make?ver=4.1) installed and available in your PATH. Refer to the **README** documentation on each package for instructions on how to install and configure Python and Make. After setting up Make and Python, check the version to see if it is now accessible.
  
 ```
