@@ -24,7 +24,7 @@ python --version
 ## Installing
  * Clone this repository `git clone git://github.com/yvestolod/node-rest-api-jdbc.git`
  * Install Node.js on your preferred platform (MacOS, Windows, Linux or z/OS). See the prerequisites section for information on installing the IBM SDK for Node.js on z/OS.
- * Open a command window (Note: You will need to use a telnet or ssh session when using Node.js on z/OS) and issue the following:
+ * Open a command window (Note: You will need to use a telnet or ssh session when using Node.js on z/OS) and issue the following (for z/OS you need to setup additional environments to be able to install the JDBC npm module):
  
  ```
  npm install
