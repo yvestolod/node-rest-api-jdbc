@@ -128,3 +128,7 @@ On a browser or REST client, you can type the following to call the Node.js samp
 ```
 http://<hostname>:<port>/dvm/vsam/all/staff
 ```
+
+The following is the sample output
+
+<img src="https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample3.png" height="75%" width="75%">
