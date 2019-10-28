@@ -122,3 +122,9 @@ the server can only do up to 98,304, using 98,304.
 Reserving connection ...
 Connection reserved: 7b48d857-381a-46ba-a79f-79ae33129173
 ```
+
+On a browser or REST client, you can type the following to call the Node.js sample
+
+```
+http://<hostname>:<port>/dvm/vsam/all/staff
+```
