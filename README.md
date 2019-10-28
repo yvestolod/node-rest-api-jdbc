@@ -38,4 +38,7 @@ mkdir drivers
 
 **Note:** The sample uses the [IBM Data Virtualization Manager (DVM) JDBC driver](https://www.ibm.com/support/knowledgecenter/en/SS4NKG_1.1.0/havica10/topics/azk_ig_tsk_inst_JDBC_drivers.html). For DVM, you need to copy the following files to the drivers directory:
 
+![Diagram 1](https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample1.png)
+
+
 
