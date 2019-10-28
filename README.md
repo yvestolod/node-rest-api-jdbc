@@ -42,7 +42,7 @@ mkdir drivers
 
 You also need to copy the log4j2.xml file into the jdbcapp directory.
 
-![Diagram 2](https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample2.png){:height="50%" width="50%"}
+<img src="https://github.com/yvestolod/node-rest-api-jdbc/blob/master/media/Sample2.png" height="50%" width="50%">
 
 If you are looking to access Db2 on z/OS, then copy the **db2jcc4.jar** and **db2jcc_license_cisuz.jar** to the drivers directory.
 
