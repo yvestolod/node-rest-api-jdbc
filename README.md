@@ -76,8 +76,49 @@ export DVMPWD=<dvm-password>
 
 ## Running the Sample program
 
-To run the sample program, issue the following:
+To run the sample program from the z/OS UNIX shell, issue the following:
 
 ```
 cd <path>/jdbcapp
 node jdbcapp.js
+```
+
+To run the sample program as a started task, you can use the following:
+
+```
+//NODEAPP1 PROC
+//*
+// SET NODEHOME='/usr/lpp/IBM/cnj/IBM/node-latest-os390-s390x'
+// SET NODEAPP='/var/node/jdbcsamp/jdbcsamp.js'
+//*
+//RUNNODE EXEC PGM=BPXBATSL,REGION=0M,MEMLIMIT=4G,
+// PARM='PGM &NODEHOME./bin/node &NODEAPP.'
+//STDOUT  DD  SYSOUT=*
+//STDERR  DD  SYSOUT=*
+//MSGLOG  DD  SYSOUT=*
+//STDIN   DD  DUMMY
+//STDENV  DD  *
+PORT=<node.port>
+DVMHOST=<dvm.host>
+DVMPORT=<dvm.port>
+DVMUSER=<dvm.user>
+DVMPWD=<dvm.password>
+//*
+```
+
+The following are sample messages that are displayed on the console:
+
+```
+Setting up the JVM
+Getting driver...
+Initializing connection...
+Node.js application listening on port 50000 (Process 16780178)
+To stop the Node application from MVS console, issue the following
+MVS command: F BPXOINIT,TERM=16780178
+2019-09-24 12:19:06,095 WARN [Thread-
+5][com.rs.jdbc.dv.DvSocketConnection.com.ibm.pok.cc9.demomvs.12050
+] You requested the maximum buffer size to be 262,144 bytes, but
+the server can only do up to 98,304, using 98,304.
+Reserving connection ...
+Connection reserved: 7b48d857-381a-46ba-a79f-79ae33129173
+```
