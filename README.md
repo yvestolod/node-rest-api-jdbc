@@ -65,14 +65,14 @@ LDFLAGS="$JAVA_HOME/lib/s390x/j9vm/libjvm.x" V=1 npm install --javahome=$JAVA_HO
 export LIBPATH=$JAVA_HOME/lib/s390x/classic:$LIBPATH
 ```
 
-* Set additional environment variables used by the sample program
+* Update the environment variables in the .env file with the correct values
 
 ```
-export PORT=<node-port>
-export DVMHOST=<dvm.host.name>
-export DVMPORT=<dvm-port>
-export DVMUSER=<dvm-user>
-export DVMPWD=<dvm-password>
+PORT=node-port
+DVMHOST=dvm.host.name
+DVMPORT=dvm-port
+DVMUSER=dvmuser
+DVMPWD=dvmpwd
 ```
 
 ## Running the Sample program
@@ -99,11 +99,6 @@ To run the sample program as a started task, you can use the following:
 //MSGLOG  DD  SYSOUT=*
 //STDIN   DD  DUMMY
 //STDENV  DD  *
-PORT=<node.port>
-DVMHOST=<dvm.host>
-DVMPORT=<dvm.port>
-DVMUSER=<dvm.user>
-DVMPWD=<dvm.password>
 //*
 ```
 
