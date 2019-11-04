@@ -13,6 +13,12 @@
 
 const express = require('express');
 const app = express();
+const dotenv = require('dotenv');
+const result = dotenv.config();
+
+if (result.error) {
+  throw result.error
+}
 
 var portNum = normalizePort(process.env.PORT || '50000');
 app.set('port', portNum);
